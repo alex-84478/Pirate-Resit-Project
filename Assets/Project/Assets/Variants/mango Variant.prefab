@@ -137,10 +137,6 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 2879c24626445524c84817ff11081967,
         type: 3}
       insertIndex: -1
-      addedObject: {fileID: 4949735455293128878}
-    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 2879c24626445524c84817ff11081967,
-        type: 3}
-      insertIndex: -1
       addedObject: {fileID: 2680163682888591969}
   m_SourcePrefab: {fileID: 100100000, guid: 2879c24626445524c84817ff11081967, type: 3}
 --- !u!4 &4871719864106372012 stripped
@@ -224,24 +220,6 @@ MonoBehaviour:
   pickedup: 0
   objRigidbody: {fileID: 5546265648811844997}
   throwAmount: 1000
---- !u!114 &4949735455293128878
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5246697737171636502}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5fea29bb7c508c244a1f805a5fd3fc4d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  outlineMode: 0
-  outlineColor: {r: 1, g: 1, b: 1, a: 1}
-  outlineWidth: 2
-  precomputeOutline: 0
-  bakeKeys: []
-  bakeValues: []
 --- !u!114 &2680163682888591969
 MonoBehaviour:
   m_ObjectHideFlags: 0

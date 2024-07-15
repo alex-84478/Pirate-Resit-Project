@@ -28,10 +28,6 @@ public class PlayerInteraction : MonoBehaviour
             {
                 Interactable newInteractable = hit.collider.GetComponent<Interactable>();
 
-                if(currentInteractable && newInteractable != currentInteractable)
-                {
-                    currentInteractable.DisableOutline();
-                }
 
                 if(newInteractable.enabled)
                 {
@@ -55,7 +51,6 @@ public class PlayerInteraction : MonoBehaviour
     void SetNewCurrentInteractable(Interactable newInteractable)
     {
         currentInteractable= newInteractable;
-        currentInteractable.EnableOutline();
         HUDController.instance.EnableInteractionText(currentInteractable.message);
     }
 
@@ -64,7 +59,6 @@ public class PlayerInteraction : MonoBehaviour
         HUDController.instance.DisableInteractionText();
         if(currentInteractable)
         {
-            currentInteractable.DisableOutline();
             currentInteractable= null;
         }
         
